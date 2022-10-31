@@ -39,14 +39,30 @@
 
             />
     </LinearLayout>
-
-    <Button
-        android:id="@+id/detail_button"
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:textSize="10sp"
-        android:text="Chi tiết"
-        />
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_margin="5dp"
+            android:textSize="10sp"
+            android:text="Chỉnh sửa"
+            />
+        <Button
+            android:id="@+id/btnDel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_margin="5dp"
+            android:textSize="10sp"
+            android:text="Xóa"
+            />
+    </LinearLayout>
+
+
 </LinearLayout>
